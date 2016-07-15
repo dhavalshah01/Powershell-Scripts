@@ -44,7 +44,6 @@ foreach ($Item in $ListName.Items)
   #Append it to "ListItem" node
   $ListItemElement.AppendChild($ReusableHTMLElement) | Out-Null
    
-
  }
   #Close the Root Element
   $XMLFile.AppendChild($ListDataElement) | Out-Null
