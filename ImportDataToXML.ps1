@@ -21,9 +21,8 @@ foreach ($reusableContent in $DataFile.ListData.ListItem)
         $NewListITem["Title"] = $reusableContent.Title        
         $NewListITem["Reusable HTML"] = $reusableContent.ReusableHTML    
                 
-               
         $NewListITem.Update()
- 
+        
         Write-Host "List Item $($reusableContent.Title) has been Added to list!"
  }
 
